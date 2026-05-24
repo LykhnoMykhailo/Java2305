@@ -1,0 +1,28 @@
+
+body {
+  background-color: #f4f6f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list-group-item {
+  transition: all 0.25s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+.todo-text {
+  font-size: 16px;
+  user-select: none;
+}
+
+.checked-todo {
+  text-decoration: line-through;
+  color: #adb5bd;
+  font-style: italic;
+}
+
+.form-check-input, .btn, label {
+  cursor: pointer;
+}
